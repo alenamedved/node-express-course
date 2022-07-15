@@ -1,0 +1,8 @@
+1 middleware functions have access to the objects req and res and also the next function. 
+we can modify req or res using middleware, that makes it a powerfull tool. 
+next function calling for the next function - always must end our middleware with next()
+
+2CRUD stands for Create Read Update Delete/Destroy
+
+3   1. when using node.js need to install 'dotenv' package and add require('dotenv').config() in the file where we need access to .env - it gives access to .env file
+    2. to protect the content of .env file we add it to .gitignore file so it wont be pushed to GitHub
